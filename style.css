@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+ }
+ @media(max-width:600px){
+ .nav{
+     flex-direction: column;
+     align-items: flex-start;
+     }
+ .top{
+     flex-direction: column;
+     align-items: center;
+     background-position: center;
+     background-size: cover;
+ }
+ .login{
+     height:100px;
+     width: 200px;
+ }
+ .login input{
+     width: 70px;
+ }
+ }
+ .nav{
+     background-color: black;
+     display: flex;
+     justify-content: space-between;
+     font-size: 20px;
+    
+ }
+ .separate{
+     background-color: white;
+     height: 3px; 
+ }
+ .nav input{
+     background-color: white;
+     margin: 15px 116px;
+     padding: 17px;
+     height: 7px;
+     width: 23vw;
+     border-radius: 15px;
+     border: 2px solid white;
+     font-size: 20px;
+     color: black;
+ }
+ li{
+     list-style: none; 
+     display: flex;
+     padding: 20px 70px;
+     gap: 4vw;
+    
+  }
+ .top{
+     background-image: url(https://redcliffelabs.com/myhealth/_next/image/?url=https%3A%2F%2Fmyhealth-redcliffelabs.redcliffelabs.com%2Fmedia%2Fblogcard-images%2F3189%2F5de3a87e-ec91-4a32-bb73-7635d6bfb275.jpg&w=1920&q=75);
+     width: 100%;
+     height: 85vh;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content:space-between;
+    
+ }
+ .top h1{
+     margin: 40px;
+     padding: 10px;
+     font-size: 100px;
+ }
+ .login{
+     height: 40vh;
+     border: 5px solid white;
+     width: 18vw;
+     margin: 100px 59px;
+     padding: 20px;
+     border-radius: 18px;
+ }
+ .login input{
+     height: 36px;
+     width: 14vw;
+     border-radius: 14px;
+     padding: 7px 16px;
+     font-size: 15px;
+     margin: 20px;
+     color: black;
+ }
+ button{
+     margin: 19px 50px;
+     font-size: 16px;
+     background-color: red;
+     height: 39px;
+     width: 10vw;
+     border-radius: 13px;
+     border: 2px solid red
+     
+ }
+ .invert{
+     filter: invert();
+ }
+ .logo{
+     padding: 0px 50px;
+ }
+ .logo img{
+     height: 30px;
+ }
